@@ -1,0 +1,18 @@
+#action-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.actionButton {
+    width: 2.8em;
+    height: 2.8em;
+}
+
+.actionButton:hover {
+    cursor: pointer;
+}
+
+.skillInactive {
+    filter: brightness(60%);
+}
